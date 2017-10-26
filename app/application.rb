@@ -14,7 +14,7 @@ class Application
       if item != nil
         resp.write item.price
       else
-        resp.write "item not found"
+        resp.write "Item not found"
       end
     else
       resp.write "Route not found"
